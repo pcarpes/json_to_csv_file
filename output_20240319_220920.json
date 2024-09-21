@@ -1,0 +1,2420 @@
+{
+  "Envelope" : {
+    "Header" : {
+      "SchemaVersion" : "2.0",
+      "MessageID" : "66b945eddbf211eebc3d000014c2ece6",
+      "From" : {
+        "Address" : "http://rei.com/SAP/PI"
+      },
+      "Environment" : "Production",
+      "Message" : {
+        "ConversationType" : "FireAndForget",
+        "Topics" : {
+          "Document" : "REI Topic.Document.DELVRY03",
+          "DocumentFormat" : "REI Topic.DocumentFormat.Version.1",
+          "Application" : "REI Topic.Application.SAP.ECC",
+          "Context" : "REI Topic.Context.WM.0004"
+        }
+      },
+      "DocumentAttributes" : {
+        "Encoding" : "None",
+        "Charset" : "UTF-8"
+      }
+    },
+    "Body" : {
+      "Document" : {
+        "SapDelvry03" : {
+          "SAPTransactionID" : "",
+          "SapDelvry03IDocBO" : {
+            "SapIDocControlRecord" : {
+              "ReceiverPort" : "PIP_AAE",
+              "PartnerTypeOfSender" : "LS",
+              "PartnerNumberOfSender" : "ECPCLNT100",
+              "IdocCreationTime" : "114744",
+              "IdocType" : "DELVRY03",
+              "NameOfTableStructure" : "EDI_DC40",
+              "IdocCreationDate" : "20240306",
+              "Client" : "100",
+              "PartnerNumberOfRecipient" : "0000000004",
+              "SenderPort" : "SAPECP",
+              "IdocNumber" : "0000000529633344",
+              "EdiMessageType" : "DESADV",
+              "PartnerFunctionOfRecipient" : "WE",
+              "StatusOfIdoc" : "30",
+              "PartnerTypeOfRecipient" : "KU"
+            },
+            "SapDelvry03DataRecord" : {
+              "SapDelvry03E2edl20003" : {
+                "Vbeln" : "0182731894",
+                "Vstel" : "4000",
+                "Inco1" : "UC1",
+                "Vsbed" : "01",
+                "Btgew" : "182.286",
+                "Ntgew" : "182.286",
+                "Gewei" : "LBR",
+                "Volum" : "62868.990",
+                "Anzpk" : "00013",
+                "Bolnr" : "467207306",
+                "Lifex" : "PEL74WI__S",
+                "Podat" : "20240306",
+                "Potim" : "134742",
+                "SapDelvry03E2edl22" : {
+                  "VstelBez" : "DC 0004 SHIPPING POINT",
+                  "Inco1Bez" : "FOB Origin, Freight Collect",
+                  "VsbedBez" : "Standard"
+                },
+                "SapDelvry03E2edl21" : {
+                  "Lfart" : "EL",
+                  "Lprio" : "00",
+                  "Tragr" : "0001",
+                  "SapDelvry03E2edl23" : {
+                    "LfartBez" : "Inbound Delivery",
+                    "TragrBez" : "On pallets"
+                  }
+                },
+                "SapDelvry03E2edl18" : {
+                  "Qualf" : "ORI"
+                },
+                "SapDelvry03E2edl55" : {
+                  "Qualf" : "Z01",
+                  "Refnr" : "76309798062340358"
+                },
+                "SapDelvry03E2adrm1001" : [ {
+                  "PartnerQ" : "LF",
+                  "PartnerId" : "0000045260",
+                  "Jurisdic" : "OR0000000",
+                  "Language" : "EN",
+                  "Formofaddr" : "Company",
+                  "Name1" : "ON INC",
+                  "Street1" : "1250 NW 9TH AVE",
+                  "PostlCod1" : "97209",
+                  "City1" : "PORTLAND",
+                  "Telephone1" : "503-222-0691",
+                  "EMail" : "MEGAN.KUITEMS@ON-RUNNING.COM",
+                  "Country1" : "US",
+                  "Region" : "OR"
+                }, {
+                  "PartnerQ" : "OSP",
+                  "PartnerId" : "4000",
+                  "Language" : "EN",
+                  "Country1" : "US",
+                  "Region" : "TN"
+                } ],
+                "SapDelvry03E2edt13001" : [ {
+                  "Qualf" : "007",
+                  "Ntanf" : "20240306",
+                  "Ntanz" : "000000",
+                  "Ntend" : "20240306",
+                  "Ntenz" : "000000",
+                  "TzoneBeg" : "CST",
+                  "Isdd" : "00000000",
+                  "Isdz" : "000000",
+                  "Iedd" : "00000000",
+                  "Iedz" : "000000"
+                }, {
+                  "Qualf" : "015",
+                  "Ntanf" : "20240306",
+                  "Ntanz" : "000000",
+                  "Ntend" : "20240306",
+                  "Ntenz" : "000000",
+                  "Isdd" : "00000000",
+                  "Isdz" : "000000",
+                  "Iedd" : "00000000",
+                  "Iedz" : "000000"
+                } ],
+                "SapDelvry03E2edl28" : {
+                  "Route" : "XXXX",
+                  "SapDelvry03E2edl30" : {
+                    "Abnum" : "XXX",
+                    "SapDelvry03E2edl32" : {
+                      "Quali" : "XXX",
+                      "Werks" : "XXXX",
+                      "Kunnr" : "0004",
+                      "Lifnr" : "0000045260"
+                    }
+                  }
+                },
+                "SapDelvry03E2edl24007" : [ {
+                  "Posnr" : "000010",
+                  "Matnr" : "000000002281460003",
+                  "Arktx" : "Cloudeclipse, BLACK/FROST, 6",
+                  "Matkl" : "402035",
+                  "Werks" : "0004",
+                  "Lgort" : "1000",
+                  "Lfimg" : "1.000",
+                  "Vrkme" : "EA",
+                  "Lgmng" : "1.000",
+                  "Meins" : "EA",
+                  "Ntgew" : "1.482",
+                  "Brgew" : "1.482",
+                  "Gewei" : "LBR",
+                  "Volum" : "511.130",
+                  "Ladgr" : "0001",
+                  "Tragr" : "0001",
+                  "Grkor" : "000",
+                  "Ean11" : "7630867817980",
+                  "Posex" : "000010",
+                  "Vfdat" : "00000000",
+                  "ExpiryDateExt" : "0",
+                  "Vgbel" : "4517193472",
+                  "Vgpos" : "000010",
+                  "Ormng" : "         1.000",
+                  "ExpiryDateExtB" : "0",
+                  "SapDelvry03E2edl25" : {
+                    "LgortBez" : "DC INVENTORY",
+                    "LadgrBez" : "Pallet Jack",
+                    "TragrBez" : "On pallets"
+                  },
+                  "SapDelvry03E2edl26002" : {
+                    "Pstyv" : "ELN",
+                    "Matkl" : "402035",
+                    "Umvkz" : "1",
+                    "Umvkn" : "1",
+                    "Uebtk" : "X",
+                    "Uebto" : "0.0",
+                    "Untto" : "0.0",
+                    "SapDelvry03E2edl27001" : {
+                      "PstyvBez" : "Inbound Delivery",
+                      "MatklBez" : "W'S NEUTRAL ROAD SHO",
+                      "WerksBez" : "LEBANON DISTRIBUTION CENTER"
+                    }
+                  },
+                  "SapDelvry03E2edl35" : {
+                    "Herkl" : "VN",
+                    "SapDelvry03E2edl36" : {
+                      "HerklBez" : "Vietnam"
+                    }
+                  },
+                  "SapDelvry03E2edl43000" : {
+                    "Qualf" : "V",
+                    "Belnr" : "4517193472",
+                    "Posnr" : "000010",
+                    "Datum" : "20240306"
+                  }
+                }, {
+                  "Posnr" : "000020",
+                  "Matnr" : "000000002281460005",
+                  "Arktx" : "Cloudeclipse, BLACK/FROST, 7",
+                  "Matkl" : "402035",
+                  "Werks" : "0004",
+                  "Lgort" : "1000",
+                  "Lfimg" : "1.000",
+                  "Vrkme" : "EA",
+                  "Lgmng" : "1.000",
+                  "Meins" : "EA",
+                  "Ntgew" : "1.482",
+                  "Brgew" : "1.482",
+                  "Gewei" : "LBR",
+                  "Volum" : "511.130",
+                  "Ladgr" : "0001",
+                  "Tragr" : "0001",
+                  "Grkor" : "000",
+                  "Ean11" : "7630867818000",
+                  "Posex" : "000020",
+                  "Vfdat" : "00000000",
+                  "ExpiryDateExt" : "0",
+                  "Vgbel" : "4517193472",
+                  "Vgpos" : "000020",
+                  "Ormng" : "         1.000",
+                  "ExpiryDateExtB" : "0",
+                  "SapDelvry03E2edl25" : {
+                    "LgortBez" : "DC INVENTORY",
+                    "LadgrBez" : "Pallet Jack",
+                    "TragrBez" : "On pallets"
+                  },
+                  "SapDelvry03E2edl26002" : {
+                    "Pstyv" : "ELN",
+                    "Matkl" : "402035",
+                    "Umvkz" : "1",
+                    "Umvkn" : "1",
+                    "Uebtk" : "X",
+                    "Uebto" : "0.0",
+                    "Untto" : "0.0",
+                    "SapDelvry03E2edl27001" : {
+                      "PstyvBez" : "Inbound Delivery",
+                      "MatklBez" : "W'S NEUTRAL ROAD SHO",
+                      "WerksBez" : "LEBANON DISTRIBUTION CENTER"
+                    }
+                  },
+                  "SapDelvry03E2edl35" : {
+                    "Herkl" : "VN",
+                    "SapDelvry03E2edl36" : {
+                      "HerklBez" : "Vietnam"
+                    }
+                  },
+                  "SapDelvry03E2edl43000" : {
+                    "Qualf" : "V",
+                    "Belnr" : "4517193472",
+                    "Posnr" : "000020",
+                    "Datum" : "20240306"
+                  }
+                }, {
+                  "Posnr" : "000030",
+                  "Matnr" : "000000002281460006",
+                  "Arktx" : "Cloudeclipse, BLACK/FROST, 7.5",
+                  "Matkl" : "402035",
+                  "Werks" : "0004",
+                  "Lgort" : "1000",
+                  "Lfimg" : "1.000",
+                  "Vrkme" : "EA",
+                  "Lgmng" : "1.000",
+                  "Meins" : "EA",
+                  "Ntgew" : "1.482",
+                  "Brgew" : "1.482",
+                  "Gewei" : "LBR",
+                  "Volum" : "511.130",
+                  "Ladgr" : "0001",
+                  "Tragr" : "0001",
+                  "Grkor" : "000",
+                  "Ean11" : "7630867818017",
+                  "Posex" : "000030",
+                  "Vfdat" : "00000000",
+                  "ExpiryDateExt" : "0",
+                  "Vgbel" : "4517193472",
+                  "Vgpos" : "000030",
+                  "Ormng" : "         1.000",
+                  "ExpiryDateExtB" : "0",
+                  "SapDelvry03E2edl25" : {
+                    "LgortBez" : "DC INVENTORY",
+                    "LadgrBez" : "Pallet Jack",
+                    "TragrBez" : "On pallets"
+                  },
+                  "SapDelvry03E2edl26002" : {
+                    "Pstyv" : "ELN",
+                    "Matkl" : "402035",
+                    "Umvkz" : "1",
+                    "Umvkn" : "1",
+                    "Uebtk" : "X",
+                    "Uebto" : "0.0",
+                    "Untto" : "0.0",
+                    "SapDelvry03E2edl27001" : {
+                      "PstyvBez" : "Inbound Delivery",
+                      "MatklBez" : "W'S NEUTRAL ROAD SHO",
+                      "WerksBez" : "LEBANON DISTRIBUTION CENTER"
+                    }
+                  },
+                  "SapDelvry03E2edl35" : {
+                    "Herkl" : "VN",
+                    "SapDelvry03E2edl36" : {
+                      "HerklBez" : "Vietnam"
+                    }
+                  },
+                  "SapDelvry03E2edl43000" : {
+                    "Qualf" : "V",
+                    "Belnr" : "4517193472",
+                    "Posnr" : "000030",
+                    "Datum" : "20240306"
+                  }
+                }, {
+                  "Posnr" : "000040",
+                  "Matnr" : "000000002281460007",
+                  "Arktx" : "Cloudeclipse, BLACK/FROST, 8",
+                  "Matkl" : "402035",
+                  "Werks" : "0004",
+                  "Lgort" : "1000",
+                  "Lfimg" : "2.000",
+                  "Vrkme" : "EA",
+                  "Lgmng" : "2.000",
+                  "Meins" : "EA",
+                  "Ntgew" : "2.964",
+                  "Brgew" : "2.964",
+                  "Gewei" : "LBR",
+                  "Volum" : "1022.260",
+                  "Ladgr" : "0001",
+                  "Tragr" : "0001",
+                  "Grkor" : "000",
+                  "Ean11" : "7630867818024",
+                  "Posex" : "000040",
+                  "Vfdat" : "00000000",
+                  "ExpiryDateExt" : "0",
+                  "Vgbel" : "4517193472",
+                  "Vgpos" : "000040",
+                  "Ormng" : "         2.000",
+                  "ExpiryDateExtB" : "0",
+                  "SapDelvry03E2edl25" : {
+                    "LgortBez" : "DC INVENTORY",
+                    "LadgrBez" : "Pallet Jack",
+                    "TragrBez" : "On pallets"
+                  },
+                  "SapDelvry03E2edl26002" : {
+                    "Pstyv" : "ELN",
+                    "Matkl" : "402035",
+                    "Umvkz" : "1",
+                    "Umvkn" : "1",
+                    "Uebtk" : "X",
+                    "Uebto" : "0.0",
+                    "Untto" : "0.0",
+                    "SapDelvry03E2edl27001" : {
+                      "PstyvBez" : "Inbound Delivery",
+                      "MatklBez" : "W'S NEUTRAL ROAD SHO",
+                      "WerksBez" : "LEBANON DISTRIBUTION CENTER"
+                    }
+                  },
+                  "SapDelvry03E2edl35" : {
+                    "Herkl" : "VN",
+                    "SapDelvry03E2edl36" : {
+                      "HerklBez" : "Vietnam"
+                    }
+                  },
+                  "SapDelvry03E2edl43000" : {
+                    "Qualf" : "V",
+                    "Belnr" : "4517193472",
+                    "Posnr" : "000040",
+                    "Datum" : "20240306"
+                  }
+                }, {
+                  "Posnr" : "000050",
+                  "Matnr" : "000000002281460008",
+                  "Arktx" : "Cloudeclipse, BLACK/FROST, 8.5",
+                  "Matkl" : "402035",
+                  "Werks" : "0004",
+                  "Lgort" : "1000",
+                  "Lfimg" : "1.000",
+                  "Vrkme" : "EA",
+                  "Lgmng" : "1.000",
+                  "Meins" : "EA",
+                  "Ntgew" : "1.482",
+                  "Brgew" : "1.482",
+                  "Gewei" : "LBR",
+                  "Volum" : "511.130",
+                  "Ladgr" : "0001",
+                  "Tragr" : "0001",
+                  "Grkor" : "000",
+                  "Ean11" : "7630867818031",
+                  "Posex" : "000050",
+                  "Vfdat" : "00000000",
+                  "ExpiryDateExt" : "0",
+                  "Vgbel" : "4517193472",
+                  "Vgpos" : "000050",
+                  "Ormng" : "         1.000",
+                  "ExpiryDateExtB" : "0",
+                  "SapDelvry03E2edl25" : {
+                    "LgortBez" : "DC INVENTORY",
+                    "LadgrBez" : "Pallet Jack",
+                    "TragrBez" : "On pallets"
+                  },
+                  "SapDelvry03E2edl26002" : {
+                    "Pstyv" : "ELN",
+                    "Matkl" : "402035",
+                    "Umvkz" : "1",
+                    "Umvkn" : "1",
+                    "Uebtk" : "X",
+                    "Uebto" : "0.0",
+                    "Untto" : "0.0",
+                    "SapDelvry03E2edl27001" : {
+                      "PstyvBez" : "Inbound Delivery",
+                      "MatklBez" : "W'S NEUTRAL ROAD SHO",
+                      "WerksBez" : "LEBANON DISTRIBUTION CENTER"
+                    }
+                  },
+                  "SapDelvry03E2edl35" : {
+                    "Herkl" : "VN",
+                    "SapDelvry03E2edl36" : {
+                      "HerklBez" : "Vietnam"
+                    }
+                  },
+                  "SapDelvry03E2edl43000" : {
+                    "Qualf" : "V",
+                    "Belnr" : "4517193472",
+                    "Posnr" : "000050",
+                    "Datum" : "20240306"
+                  }
+                }, {
+                  "Posnr" : "000060",
+                  "Matnr" : "000000002281460009",
+                  "Arktx" : "Cloudeclipse, BLACK/FROST, 9",
+                  "Matkl" : "402035",
+                  "Werks" : "0004",
+                  "Lgort" : "1000",
+                  "Lfimg" : "1.000",
+                  "Vrkme" : "EA",
+                  "Lgmng" : "1.000",
+                  "Meins" : "EA",
+                  "Ntgew" : "1.482",
+                  "Brgew" : "1.482",
+                  "Gewei" : "LBR",
+                  "Volum" : "511.130",
+                  "Ladgr" : "0001",
+                  "Tragr" : "0001",
+                  "Grkor" : "000",
+                  "Ean11" : "7630867818048",
+                  "Posex" : "000060",
+                  "Vfdat" : "00000000",
+                  "ExpiryDateExt" : "0",
+                  "Vgbel" : "4517193472",
+                  "Vgpos" : "000060",
+                  "Ormng" : "         1.000",
+                  "ExpiryDateExtB" : "0",
+                  "SapDelvry03E2edl25" : {
+                    "LgortBez" : "DC INVENTORY",
+                    "LadgrBez" : "Pallet Jack",
+                    "TragrBez" : "On pallets"
+                  },
+                  "SapDelvry03E2edl26002" : {
+                    "Pstyv" : "ELN",
+                    "Matkl" : "402035",
+                    "Umvkz" : "1",
+                    "Umvkn" : "1",
+                    "Uebtk" : "X",
+                    "Uebto" : "0.0",
+                    "Untto" : "0.0",
+                    "SapDelvry03E2edl27001" : {
+                      "PstyvBez" : "Inbound Delivery",
+                      "MatklBez" : "W'S NEUTRAL ROAD SHO",
+                      "WerksBez" : "LEBANON DISTRIBUTION CENTER"
+                    }
+                  },
+                  "SapDelvry03E2edl35" : {
+                    "Herkl" : "VN",
+                    "SapDelvry03E2edl36" : {
+                      "HerklBez" : "Vietnam"
+                    }
+                  },
+                  "SapDelvry03E2edl43000" : {
+                    "Qualf" : "V",
+                    "Belnr" : "4517193472",
+                    "Posnr" : "000060",
+                    "Datum" : "20240306"
+                  }
+                }, {
+                  "Posnr" : "000070",
+                  "Matnr" : "000000002281460010",
+                  "Arktx" : "Cloudeclipse, BLACK/FROST, 9.5",
+                  "Matkl" : "402035",
+                  "Werks" : "0004",
+                  "Lgort" : "1000",
+                  "Lfimg" : "1.000",
+                  "Vrkme" : "EA",
+                  "Lgmng" : "1.000",
+                  "Meins" : "EA",
+                  "Ntgew" : "1.482",
+                  "Brgew" : "1.482",
+                  "Gewei" : "LBR",
+                  "Volum" : "511.130",
+                  "Ladgr" : "0001",
+                  "Tragr" : "0001",
+                  "Grkor" : "000",
+                  "Ean11" : "7630867818055",
+                  "Posex" : "000070",
+                  "Vfdat" : "00000000",
+                  "ExpiryDateExt" : "0",
+                  "Vgbel" : "4517193472",
+                  "Vgpos" : "000070",
+                  "Ormng" : "         1.000",
+                  "ExpiryDateExtB" : "0",
+                  "SapDelvry03E2edl25" : {
+                    "LgortBez" : "DC INVENTORY",
+                    "LadgrBez" : "Pallet Jack",
+                    "TragrBez" : "On pallets"
+                  },
+                  "SapDelvry03E2edl26002" : {
+                    "Pstyv" : "ELN",
+                    "Matkl" : "402035",
+                    "Umvkz" : "1",
+                    "Umvkn" : "1",
+                    "Uebtk" : "X",
+                    "Uebto" : "0.0",
+                    "Untto" : "0.0",
+                    "SapDelvry03E2edl27001" : {
+                      "PstyvBez" : "Inbound Delivery",
+                      "MatklBez" : "W'S NEUTRAL ROAD SHO",
+                      "WerksBez" : "LEBANON DISTRIBUTION CENTER"
+                    }
+                  },
+                  "SapDelvry03E2edl35" : {
+                    "Herkl" : "VN",
+                    "SapDelvry03E2edl36" : {
+                      "HerklBez" : "Vietnam"
+                    }
+                  },
+                  "SapDelvry03E2edl43000" : {
+                    "Qualf" : "V",
+                    "Belnr" : "4517193472",
+                    "Posnr" : "000070",
+                    "Datum" : "20240306"
+                  }
+                }, {
+                  "Posnr" : "000080",
+                  "Matnr" : "000000002281460012",
+                  "Arktx" : "Cloudeclipse, BLACK/FROST, 10.5",
+                  "Matkl" : "402035",
+                  "Werks" : "0004",
+                  "Lgort" : "1000",
+                  "Lfimg" : "1.000",
+                  "Vrkme" : "EA",
+                  "Lgmng" : "1.000",
+                  "Meins" : "EA",
+                  "Ntgew" : "1.482",
+                  "Brgew" : "1.482",
+                  "Gewei" : "LBR",
+                  "Volum" : "511.130",
+                  "Ladgr" : "0001",
+                  "Tragr" : "0001",
+                  "Grkor" : "000",
+                  "Ean11" : "7630867818079",
+                  "Posex" : "000090",
+                  "Vfdat" : "00000000",
+                  "ExpiryDateExt" : "0",
+                  "Vgbel" : "4517193472",
+                  "Vgpos" : "000090",
+                  "Ormng" : "         1.000",
+                  "ExpiryDateExtB" : "0",
+                  "SapDelvry03E2edl25" : {
+                    "LgortBez" : "DC INVENTORY",
+                    "LadgrBez" : "Pallet Jack",
+                    "TragrBez" : "On pallets"
+                  },
+                  "SapDelvry03E2edl26002" : {
+                    "Pstyv" : "ELN",
+                    "Matkl" : "402035",
+                    "Umvkz" : "1",
+                    "Umvkn" : "1",
+                    "Uebtk" : "X",
+                    "Uebto" : "0.0",
+                    "Untto" : "0.0",
+                    "SapDelvry03E2edl27001" : {
+                      "PstyvBez" : "Inbound Delivery",
+                      "MatklBez" : "W'S NEUTRAL ROAD SHO",
+                      "WerksBez" : "LEBANON DISTRIBUTION CENTER"
+                    }
+                  },
+                  "SapDelvry03E2edl35" : {
+                    "Herkl" : "VN",
+                    "SapDelvry03E2edl36" : {
+                      "HerklBez" : "Vietnam"
+                    }
+                  },
+                  "SapDelvry03E2edl43000" : {
+                    "Qualf" : "V",
+                    "Belnr" : "4517193472",
+                    "Posnr" : "000090",
+                    "Datum" : "20240306"
+                  }
+                }, {
+                  "Posnr" : "000090",
+                  "Matnr" : "000000002281460021",
+                  "Arktx" : "Cloudeclipse, FADE/SAND, 8.5",
+                  "Matkl" : "402035",
+                  "Werks" : "0004",
+                  "Lgort" : "1000",
+                  "Lfimg" : "16.000",
+                  "Vrkme" : "EA",
+                  "Lgmng" : "16.000",
+                  "Meins" : "EA",
+                  "Ntgew" : "23.712",
+                  "Brgew" : "23.712",
+                  "Gewei" : "LBR",
+                  "Volum" : "8178.080",
+                  "Ladgr" : "0001",
+                  "Tragr" : "0001",
+                  "Grkor" : "000",
+                  "Ean11" : "7630867883275",
+                  "Posex" : "000210",
+                  "Vfdat" : "00000000",
+                  "ExpiryDateExt" : "0",
+                  "Vgbel" : "4517193472",
+                  "Vgpos" : "000210",
+                  "Ormng" : "        16.000",
+                  "ExpiryDateExtB" : "0",
+                  "SapDelvry03E2edl25" : {
+                    "LgortBez" : "DC INVENTORY",
+                    "LadgrBez" : "Pallet Jack",
+                    "TragrBez" : "On pallets"
+                  },
+                  "SapDelvry03E2edl26002" : {
+                    "Pstyv" : "ELN",
+                    "Matkl" : "402035",
+                    "Umvkz" : "1",
+                    "Umvkn" : "1",
+                    "Uebtk" : "X",
+                    "Uebto" : "0.0",
+                    "Untto" : "0.0",
+                    "SapDelvry03E2edl27001" : {
+                      "PstyvBez" : "Inbound Delivery",
+                      "MatklBez" : "W'S NEUTRAL ROAD SHO",
+                      "WerksBez" : "LEBANON DISTRIBUTION CENTER"
+                    }
+                  },
+                  "SapDelvry03E2edl35" : {
+                    "Herkl" : "VN",
+                    "SapDelvry03E2edl36" : {
+                      "HerklBez" : "Vietnam"
+                    }
+                  },
+                  "SapDelvry03E2edl43000" : {
+                    "Qualf" : "V",
+                    "Belnr" : "4517193472",
+                    "Posnr" : "000210",
+                    "Datum" : "20240306"
+                  }
+                }, {
+                  "Posnr" : "000100",
+                  "Matnr" : "000000002281460018",
+                  "Arktx" : "Cloudeclipse, FADE/SAND, 7",
+                  "Matkl" : "402035",
+                  "Werks" : "0004",
+                  "Lgort" : "1000",
+                  "Lfimg" : "11.000",
+                  "Vrkme" : "EA",
+                  "Lgmng" : "11.000",
+                  "Meins" : "EA",
+                  "Ntgew" : "16.302",
+                  "Brgew" : "16.302",
+                  "Gewei" : "LBR",
+                  "Volum" : "5622.430",
+                  "Ladgr" : "0001",
+                  "Tragr" : "0001",
+                  "Grkor" : "000",
+                  "Ean11" : "7630867883244",
+                  "Posex" : "000180",
+                  "Vfdat" : "00000000",
+                  "ExpiryDateExt" : "0",
+                  "Vgbel" : "4517193472",
+                  "Vgpos" : "000180",
+                  "Ormng" : "        11.000",
+                  "ExpiryDateExtB" : "0",
+                  "SapDelvry03E2edl25" : {
+                    "LgortBez" : "DC INVENTORY",
+                    "LadgrBez" : "Pallet Jack",
+                    "TragrBez" : "On pallets"
+                  },
+                  "SapDelvry03E2edl26002" : {
+                    "Pstyv" : "ELN",
+                    "Matkl" : "402035",
+                    "Umvkz" : "1",
+                    "Umvkn" : "1",
+                    "Uebtk" : "X",
+                    "Uebto" : "0.0",
+                    "Untto" : "0.0",
+                    "SapDelvry03E2edl27001" : {
+                      "PstyvBez" : "Inbound Delivery",
+                      "MatklBez" : "W'S NEUTRAL ROAD SHO",
+                      "WerksBez" : "LEBANON DISTRIBUTION CENTER"
+                    }
+                  },
+                  "SapDelvry03E2edl35" : {
+                    "Herkl" : "VN",
+                    "SapDelvry03E2edl36" : {
+                      "HerklBez" : "Vietnam"
+                    }
+                  },
+                  "SapDelvry03E2edl43000" : {
+                    "Qualf" : "V",
+                    "Belnr" : "4517193472",
+                    "Posnr" : "000180",
+                    "Datum" : "20240306"
+                  }
+                }, {
+                  "Posnr" : "000110",
+                  "Matnr" : "000000002281460019",
+                  "Arktx" : "Cloudeclipse, FADE/SAND, 7.5",
+                  "Matkl" : "402035",
+                  "Werks" : "0004",
+                  "Lgort" : "1000",
+                  "Lfimg" : "14.000",
+                  "Vrkme" : "EA",
+                  "Lgmng" : "14.000",
+                  "Meins" : "EA",
+                  "Ntgew" : "20.748",
+                  "Brgew" : "20.748",
+                  "Gewei" : "LBR",
+                  "Volum" : "7155.820",
+                  "Ladgr" : "0001",
+                  "Tragr" : "0001",
+                  "Grkor" : "000",
+                  "Ean11" : "7630867883251",
+                  "Posex" : "000190",
+                  "Vfdat" : "00000000",
+                  "ExpiryDateExt" : "0",
+                  "Vgbel" : "4517193472",
+                  "Vgpos" : "000190",
+                  "Ormng" : "        14.000",
+                  "ExpiryDateExtB" : "0",
+                  "SapDelvry03E2edl25" : {
+                    "LgortBez" : "DC INVENTORY",
+                    "LadgrBez" : "Pallet Jack",
+                    "TragrBez" : "On pallets"
+                  },
+                  "SapDelvry03E2edl26002" : {
+                    "Pstyv" : "ELN",
+                    "Matkl" : "402035",
+                    "Umvkz" : "1",
+                    "Umvkn" : "1",
+                    "Uebtk" : "X",
+                    "Uebto" : "0.0",
+                    "Untto" : "0.0",
+                    "SapDelvry03E2edl27001" : {
+                      "PstyvBez" : "Inbound Delivery",
+                      "MatklBez" : "W'S NEUTRAL ROAD SHO",
+                      "WerksBez" : "LEBANON DISTRIBUTION CENTER"
+                    }
+                  },
+                  "SapDelvry03E2edl35" : {
+                    "Herkl" : "VN",
+                    "SapDelvry03E2edl36" : {
+                      "HerklBez" : "Vietnam"
+                    }
+                  },
+                  "SapDelvry03E2edl43000" : {
+                    "Qualf" : "V",
+                    "Belnr" : "4517193472",
+                    "Posnr" : "000190",
+                    "Datum" : "20240306"
+                  }
+                }, {
+                  "Posnr" : "000120",
+                  "Matnr" : "000000002281460020",
+                  "Arktx" : "Cloudeclipse, FADE/SAND, 8",
+                  "Matkl" : "402035",
+                  "Werks" : "0004",
+                  "Lgort" : "1000",
+                  "Lfimg" : "18.000",
+                  "Vrkme" : "EA",
+                  "Lgmng" : "18.000",
+                  "Meins" : "EA",
+                  "Ntgew" : "26.676",
+                  "Brgew" : "26.676",
+                  "Gewei" : "LBR",
+                  "Volum" : "9200.340",
+                  "Ladgr" : "0001",
+                  "Tragr" : "0001",
+                  "Grkor" : "000",
+                  "Ean11" : "7630867883268",
+                  "Posex" : "000200",
+                  "Vfdat" : "00000000",
+                  "ExpiryDateExt" : "0",
+                  "Vgbel" : "4517193472",
+                  "Vgpos" : "000200",
+                  "Ormng" : "        18.000",
+                  "ExpiryDateExtB" : "0",
+                  "SapDelvry03E2edl25" : {
+                    "LgortBez" : "DC INVENTORY",
+                    "LadgrBez" : "Pallet Jack",
+                    "TragrBez" : "On pallets"
+                  },
+                  "SapDelvry03E2edl26002" : {
+                    "Pstyv" : "ELN",
+                    "Matkl" : "402035",
+                    "Umvkz" : "1",
+                    "Umvkn" : "1",
+                    "Uebtk" : "X",
+                    "Uebto" : "0.0",
+                    "Untto" : "0.0",
+                    "SapDelvry03E2edl27001" : {
+                      "PstyvBez" : "Inbound Delivery",
+                      "MatklBez" : "W'S NEUTRAL ROAD SHO",
+                      "WerksBez" : "LEBANON DISTRIBUTION CENTER"
+                    }
+                  },
+                  "SapDelvry03E2edl35" : {
+                    "Herkl" : "VN",
+                    "SapDelvry03E2edl36" : {
+                      "HerklBez" : "Vietnam"
+                    }
+                  },
+                  "SapDelvry03E2edl43000" : {
+                    "Qualf" : "V",
+                    "Belnr" : "4517193472",
+                    "Posnr" : "000200",
+                    "Datum" : "20240306"
+                  }
+                }, {
+                  "Posnr" : "000130",
+                  "Matnr" : "000000002281460011",
+                  "Arktx" : "Cloudeclipse, BLACK/FROST, 10",
+                  "Matkl" : "402035",
+                  "Werks" : "0004",
+                  "Lgort" : "1000",
+                  "Lfimg" : "1.000",
+                  "Vrkme" : "EA",
+                  "Lgmng" : "1.000",
+                  "Meins" : "EA",
+                  "Ntgew" : "1.482",
+                  "Brgew" : "1.482",
+                  "Gewei" : "LBR",
+                  "Volum" : "511.130",
+                  "Ladgr" : "0001",
+                  "Tragr" : "0001",
+                  "Grkor" : "000",
+                  "Ean11" : "7630867818062",
+                  "Posex" : "000080",
+                  "Vfdat" : "00000000",
+                  "ExpiryDateExt" : "0",
+                  "Vgbel" : "4517193472",
+                  "Vgpos" : "000080",
+                  "Ormng" : "         1.000",
+                  "ExpiryDateExtB" : "0",
+                  "SapDelvry03E2edl25" : {
+                    "LgortBez" : "DC INVENTORY",
+                    "LadgrBez" : "Pallet Jack",
+                    "TragrBez" : "On pallets"
+                  },
+                  "SapDelvry03E2edl26002" : {
+                    "Pstyv" : "ELN",
+                    "Matkl" : "402035",
+                    "Umvkz" : "1",
+                    "Umvkn" : "1",
+                    "Uebtk" : "X",
+                    "Uebto" : "0.0",
+                    "Untto" : "0.0",
+                    "SapDelvry03E2edl27001" : {
+                      "PstyvBez" : "Inbound Delivery",
+                      "MatklBez" : "W'S NEUTRAL ROAD SHO",
+                      "WerksBez" : "LEBANON DISTRIBUTION CENTER"
+                    }
+                  },
+                  "SapDelvry03E2edl35" : {
+                    "Herkl" : "VN",
+                    "SapDelvry03E2edl36" : {
+                      "HerklBez" : "Vietnam"
+                    }
+                  },
+                  "SapDelvry03E2edl43000" : {
+                    "Qualf" : "V",
+                    "Belnr" : "4517193472",
+                    "Posnr" : "000080",
+                    "Datum" : "20240306"
+                  }
+                }, {
+                  "Posnr" : "000140",
+                  "Matnr" : "000000002281460044",
+                  "Arktx" : "Cloudeclipse, WHITE/SAND, 7",
+                  "Matkl" : "402035",
+                  "Werks" : "0004",
+                  "Lgort" : "1000",
+                  "Lfimg" : "1.000",
+                  "Vrkme" : "EA",
+                  "Lgmng" : "1.000",
+                  "Meins" : "EA",
+                  "Ntgew" : "1.482",
+                  "Brgew" : "1.482",
+                  "Gewei" : "LBR",
+                  "Volum" : "511.130",
+                  "Ladgr" : "0001",
+                  "Tragr" : "0001",
+                  "Grkor" : "000",
+                  "Ean11" : "7630867817744",
+                  "Posex" : "000100",
+                  "Vfdat" : "00000000",
+                  "ExpiryDateExt" : "0",
+                  "Vgbel" : "4517193472",
+                  "Vgpos" : "000100",
+                  "Ormng" : "         1.000",
+                  "ExpiryDateExtB" : "0",
+                  "SapDelvry03E2edl25" : {
+                    "LgortBez" : "DC INVENTORY",
+                    "LadgrBez" : "Pallet Jack",
+                    "TragrBez" : "On pallets"
+                  },
+                  "SapDelvry03E2edl26002" : {
+                    "Pstyv" : "ELN",
+                    "Matkl" : "402035",
+                    "Umvkz" : "1",
+                    "Umvkn" : "1",
+                    "Uebtk" : "X",
+                    "Uebto" : "0.0",
+                    "Untto" : "0.0",
+                    "SapDelvry03E2edl27001" : {
+                      "PstyvBez" : "Inbound Delivery",
+                      "MatklBez" : "W'S NEUTRAL ROAD SHO",
+                      "WerksBez" : "LEBANON DISTRIBUTION CENTER"
+                    }
+                  },
+                  "SapDelvry03E2edl35" : {
+                    "Herkl" : "VN",
+                    "SapDelvry03E2edl36" : {
+                      "HerklBez" : "Vietnam"
+                    }
+                  },
+                  "SapDelvry03E2edl43000" : {
+                    "Qualf" : "V",
+                    "Belnr" : "4517193472",
+                    "Posnr" : "000100",
+                    "Datum" : "20240306"
+                  }
+                }, {
+                  "Posnr" : "000150",
+                  "Matnr" : "000000002281460045",
+                  "Arktx" : "Cloudeclipse, WHITE/SAND, 7.5",
+                  "Matkl" : "402035",
+                  "Werks" : "0004",
+                  "Lgort" : "1000",
+                  "Lfimg" : "1.000",
+                  "Vrkme" : "EA",
+                  "Lgmng" : "1.000",
+                  "Meins" : "EA",
+                  "Ntgew" : "1.482",
+                  "Brgew" : "1.482",
+                  "Gewei" : "LBR",
+                  "Volum" : "511.130",
+                  "Ladgr" : "0001",
+                  "Tragr" : "0001",
+                  "Grkor" : "000",
+                  "Ean11" : "7630867817751",
+                  "Posex" : "000110",
+                  "Vfdat" : "00000000",
+                  "ExpiryDateExt" : "0",
+                  "Vgbel" : "4517193472",
+                  "Vgpos" : "000110",
+                  "Ormng" : "         1.000",
+                  "ExpiryDateExtB" : "0",
+                  "SapDelvry03E2edl25" : {
+                    "LgortBez" : "DC INVENTORY",
+                    "LadgrBez" : "Pallet Jack",
+                    "TragrBez" : "On pallets"
+                  },
+                  "SapDelvry03E2edl26002" : {
+                    "Pstyv" : "ELN",
+                    "Matkl" : "402035",
+                    "Umvkz" : "1",
+                    "Umvkn" : "1",
+                    "Uebtk" : "X",
+                    "Uebto" : "0.0",
+                    "Untto" : "0.0",
+                    "SapDelvry03E2edl27001" : {
+                      "PstyvBez" : "Inbound Delivery",
+                      "MatklBez" : "W'S NEUTRAL ROAD SHO",
+                      "WerksBez" : "LEBANON DISTRIBUTION CENTER"
+                    }
+                  },
+                  "SapDelvry03E2edl35" : {
+                    "Herkl" : "VN",
+                    "SapDelvry03E2edl36" : {
+                      "HerklBez" : "Vietnam"
+                    }
+                  },
+                  "SapDelvry03E2edl43000" : {
+                    "Qualf" : "V",
+                    "Belnr" : "4517193472",
+                    "Posnr" : "000110",
+                    "Datum" : "20240306"
+                  }
+                }, {
+                  "Posnr" : "000160",
+                  "Matnr" : "000000002281460046",
+                  "Arktx" : "Cloudeclipse, WHITE/SAND, 8",
+                  "Matkl" : "402035",
+                  "Werks" : "0004",
+                  "Lgort" : "1000",
+                  "Lfimg" : "1.000",
+                  "Vrkme" : "EA",
+                  "Lgmng" : "1.000",
+                  "Meins" : "EA",
+                  "Ntgew" : "1.482",
+                  "Brgew" : "1.482",
+                  "Gewei" : "LBR",
+                  "Volum" : "511.130",
+                  "Ladgr" : "0001",
+                  "Tragr" : "0001",
+                  "Grkor" : "000",
+                  "Ean11" : "7630867817768",
+                  "Posex" : "000120",
+                  "Vfdat" : "00000000",
+                  "ExpiryDateExt" : "0",
+                  "Vgbel" : "4517193472",
+                  "Vgpos" : "000120",
+                  "Ormng" : "         1.000",
+                  "ExpiryDateExtB" : "0",
+                  "SapDelvry03E2edl25" : {
+                    "LgortBez" : "DC INVENTORY",
+                    "LadgrBez" : "Pallet Jack",
+                    "TragrBez" : "On pallets"
+                  },
+                  "SapDelvry03E2edl26002" : {
+                    "Pstyv" : "ELN",
+                    "Matkl" : "402035",
+                    "Umvkz" : "1",
+                    "Umvkn" : "1",
+                    "Uebtk" : "X",
+                    "Uebto" : "0.0",
+                    "Untto" : "0.0",
+                    "SapDelvry03E2edl27001" : {
+                      "PstyvBez" : "Inbound Delivery",
+                      "MatklBez" : "W'S NEUTRAL ROAD SHO",
+                      "WerksBez" : "LEBANON DISTRIBUTION CENTER"
+                    }
+                  },
+                  "SapDelvry03E2edl35" : {
+                    "Herkl" : "VN",
+                    "SapDelvry03E2edl36" : {
+                      "HerklBez" : "Vietnam"
+                    }
+                  },
+                  "SapDelvry03E2edl43000" : {
+                    "Qualf" : "V",
+                    "Belnr" : "4517193472",
+                    "Posnr" : "000120",
+                    "Datum" : "20240306"
+                  }
+                }, {
+                  "Posnr" : "000170",
+                  "Matnr" : "000000002281460047",
+                  "Arktx" : "Cloudeclipse, WHITE/SAND, 8.5",
+                  "Matkl" : "402035",
+                  "Werks" : "0004",
+                  "Lgort" : "1000",
+                  "Lfimg" : "1.000",
+                  "Vrkme" : "EA",
+                  "Lgmng" : "1.000",
+                  "Meins" : "EA",
+                  "Ntgew" : "1.482",
+                  "Brgew" : "1.482",
+                  "Gewei" : "LBR",
+                  "Volum" : "511.130",
+                  "Ladgr" : "0001",
+                  "Tragr" : "0001",
+                  "Grkor" : "000",
+                  "Ean11" : "7630867817775",
+                  "Posex" : "000130",
+                  "Vfdat" : "00000000",
+                  "ExpiryDateExt" : "0",
+                  "Vgbel" : "4517193472",
+                  "Vgpos" : "000130",
+                  "Ormng" : "         1.000",
+                  "ExpiryDateExtB" : "0",
+                  "SapDelvry03E2edl25" : {
+                    "LgortBez" : "DC INVENTORY",
+                    "LadgrBez" : "Pallet Jack",
+                    "TragrBez" : "On pallets"
+                  },
+                  "SapDelvry03E2edl26002" : {
+                    "Pstyv" : "ELN",
+                    "Matkl" : "402035",
+                    "Umvkz" : "1",
+                    "Umvkn" : "1",
+                    "Uebtk" : "X",
+                    "Uebto" : "0.0",
+                    "Untto" : "0.0",
+                    "SapDelvry03E2edl27001" : {
+                      "PstyvBez" : "Inbound Delivery",
+                      "MatklBez" : "W'S NEUTRAL ROAD SHO",
+                      "WerksBez" : "LEBANON DISTRIBUTION CENTER"
+                    }
+                  },
+                  "SapDelvry03E2edl35" : {
+                    "Herkl" : "VN",
+                    "SapDelvry03E2edl36" : {
+                      "HerklBez" : "Vietnam"
+                    }
+                  },
+                  "SapDelvry03E2edl43000" : {
+                    "Qualf" : "V",
+                    "Belnr" : "4517193472",
+                    "Posnr" : "000130",
+                    "Datum" : "20240306"
+                  }
+                }, {
+                  "Posnr" : "000180",
+                  "Matnr" : "000000002281460048",
+                  "Arktx" : "Cloudeclipse, WHITE/SAND, 9",
+                  "Matkl" : "402035",
+                  "Werks" : "0004",
+                  "Lgort" : "1000",
+                  "Lfimg" : "1.000",
+                  "Vrkme" : "EA",
+                  "Lgmng" : "1.000",
+                  "Meins" : "EA",
+                  "Ntgew" : "1.482",
+                  "Brgew" : "1.482",
+                  "Gewei" : "LBR",
+                  "Volum" : "511.130",
+                  "Ladgr" : "0001",
+                  "Tragr" : "0001",
+                  "Grkor" : "000",
+                  "Ean11" : "7630867817782",
+                  "Posex" : "000140",
+                  "Vfdat" : "00000000",
+                  "ExpiryDateExt" : "0",
+                  "Vgbel" : "4517193472",
+                  "Vgpos" : "000140",
+                  "Ormng" : "         1.000",
+                  "ExpiryDateExtB" : "0",
+                  "SapDelvry03E2edl25" : {
+                    "LgortBez" : "DC INVENTORY",
+                    "LadgrBez" : "Pallet Jack",
+                    "TragrBez" : "On pallets"
+                  },
+                  "SapDelvry03E2edl26002" : {
+                    "Pstyv" : "ELN",
+                    "Matkl" : "402035",
+                    "Umvkz" : "1",
+                    "Umvkn" : "1",
+                    "Uebtk" : "X",
+                    "Uebto" : "0.0",
+                    "Untto" : "0.0",
+                    "SapDelvry03E2edl27001" : {
+                      "PstyvBez" : "Inbound Delivery",
+                      "MatklBez" : "W'S NEUTRAL ROAD SHO",
+                      "WerksBez" : "LEBANON DISTRIBUTION CENTER"
+                    }
+                  },
+                  "SapDelvry03E2edl35" : {
+                    "Herkl" : "VN",
+                    "SapDelvry03E2edl36" : {
+                      "HerklBez" : "Vietnam"
+                    }
+                  },
+                  "SapDelvry03E2edl43000" : {
+                    "Qualf" : "V",
+                    "Belnr" : "4517193472",
+                    "Posnr" : "000140",
+                    "Datum" : "20240306"
+                  }
+                }, {
+                  "Posnr" : "000190",
+                  "Matnr" : "000000002281460049",
+                  "Arktx" : "Cloudeclipse, WHITE/SAND, 9.5",
+                  "Matkl" : "402035",
+                  "Werks" : "0004",
+                  "Lgort" : "1000",
+                  "Lfimg" : "1.000",
+                  "Vrkme" : "EA",
+                  "Lgmng" : "1.000",
+                  "Meins" : "EA",
+                  "Ntgew" : "1.482",
+                  "Brgew" : "1.482",
+                  "Gewei" : "LBR",
+                  "Volum" : "511.130",
+                  "Ladgr" : "0001",
+                  "Tragr" : "0001",
+                  "Grkor" : "000",
+                  "Ean11" : "7630867817799",
+                  "Posex" : "000150",
+                  "Vfdat" : "00000000",
+                  "ExpiryDateExt" : "0",
+                  "Vgbel" : "4517193472",
+                  "Vgpos" : "000150",
+                  "Ormng" : "         1.000",
+                  "ExpiryDateExtB" : "0",
+                  "SapDelvry03E2edl25" : {
+                    "LgortBez" : "DC INVENTORY",
+                    "LadgrBez" : "Pallet Jack",
+                    "TragrBez" : "On pallets"
+                  },
+                  "SapDelvry03E2edl26002" : {
+                    "Pstyv" : "ELN",
+                    "Matkl" : "402035",
+                    "Umvkz" : "1",
+                    "Umvkn" : "1",
+                    "Uebtk" : "X",
+                    "Uebto" : "0.0",
+                    "Untto" : "0.0",
+                    "SapDelvry03E2edl27001" : {
+                      "PstyvBez" : "Inbound Delivery",
+                      "MatklBez" : "W'S NEUTRAL ROAD SHO",
+                      "WerksBez" : "LEBANON DISTRIBUTION CENTER"
+                    }
+                  },
+                  "SapDelvry03E2edl35" : {
+                    "Herkl" : "VN",
+                    "SapDelvry03E2edl36" : {
+                      "HerklBez" : "Vietnam"
+                    }
+                  },
+                  "SapDelvry03E2edl43000" : {
+                    "Qualf" : "V",
+                    "Belnr" : "4517193472",
+                    "Posnr" : "000150",
+                    "Datum" : "20240306"
+                  }
+                }, {
+                  "Posnr" : "000200",
+                  "Matnr" : "000000002281460022",
+                  "Arktx" : "Cloudeclipse, FADE/SAND, 9",
+                  "Matkl" : "402035",
+                  "Werks" : "0004",
+                  "Lgort" : "1000",
+                  "Lfimg" : "15.000",
+                  "Vrkme" : "EA",
+                  "Lgmng" : "15.000",
+                  "Meins" : "EA",
+                  "Ntgew" : "22.230",
+                  "Brgew" : "22.230",
+                  "Gewei" : "LBR",
+                  "Volum" : "7666.950",
+                  "Ladgr" : "0001",
+                  "Tragr" : "0001",
+                  "Grkor" : "000",
+                  "Ean11" : "7630867883282",
+                  "Posex" : "000220",
+                  "Vfdat" : "00000000",
+                  "ExpiryDateExt" : "0",
+                  "Vgbel" : "4517193472",
+                  "Vgpos" : "000220",
+                  "Ormng" : "        15.000",
+                  "ExpiryDateExtB" : "0",
+                  "SapDelvry03E2edl25" : {
+                    "LgortBez" : "DC INVENTORY",
+                    "LadgrBez" : "Pallet Jack",
+                    "TragrBez" : "On pallets"
+                  },
+                  "SapDelvry03E2edl26002" : {
+                    "Pstyv" : "ELN",
+                    "Matkl" : "402035",
+                    "Umvkz" : "1",
+                    "Umvkn" : "1",
+                    "Uebtk" : "X",
+                    "Uebto" : "0.0",
+                    "Untto" : "0.0",
+                    "SapDelvry03E2edl27001" : {
+                      "PstyvBez" : "Inbound Delivery",
+                      "MatklBez" : "W'S NEUTRAL ROAD SHO",
+                      "WerksBez" : "LEBANON DISTRIBUTION CENTER"
+                    }
+                  },
+                  "SapDelvry03E2edl35" : {
+                    "Herkl" : "VN",
+                    "SapDelvry03E2edl36" : {
+                      "HerklBez" : "Vietnam"
+                    }
+                  },
+                  "SapDelvry03E2edl43000" : {
+                    "Qualf" : "V",
+                    "Belnr" : "4517193472",
+                    "Posnr" : "000220",
+                    "Datum" : "20240306"
+                  }
+                }, {
+                  "Posnr" : "000210",
+                  "Matnr" : "000000002281460024",
+                  "Arktx" : "Cloudeclipse, FADE/SAND, 10",
+                  "Matkl" : "402035",
+                  "Werks" : "0004",
+                  "Lgort" : "1000",
+                  "Lfimg" : "9.000",
+                  "Vrkme" : "EA",
+                  "Lgmng" : "9.000",
+                  "Meins" : "EA",
+                  "Ntgew" : "13.338",
+                  "Brgew" : "13.338",
+                  "Gewei" : "LBR",
+                  "Volum" : "4600.170",
+                  "Ladgr" : "0001",
+                  "Tragr" : "0001",
+                  "Grkor" : "000",
+                  "Ean11" : "7630867883305",
+                  "Posex" : "000240",
+                  "Vfdat" : "00000000",
+                  "ExpiryDateExt" : "0",
+                  "Vgbel" : "4517193472",
+                  "Vgpos" : "000240",
+                  "Ormng" : "         9.000",
+                  "ExpiryDateExtB" : "0",
+                  "SapDelvry03E2edl25" : {
+                    "LgortBez" : "DC INVENTORY",
+                    "LadgrBez" : "Pallet Jack",
+                    "TragrBez" : "On pallets"
+                  },
+                  "SapDelvry03E2edl26002" : {
+                    "Pstyv" : "ELN",
+                    "Matkl" : "402035",
+                    "Umvkz" : "1",
+                    "Umvkn" : "1",
+                    "Uebtk" : "X",
+                    "Uebto" : "0.0",
+                    "Untto" : "0.0",
+                    "SapDelvry03E2edl27001" : {
+                      "PstyvBez" : "Inbound Delivery",
+                      "MatklBez" : "W'S NEUTRAL ROAD SHO",
+                      "WerksBez" : "LEBANON DISTRIBUTION CENTER"
+                    }
+                  },
+                  "SapDelvry03E2edl35" : {
+                    "Herkl" : "VN",
+                    "SapDelvry03E2edl36" : {
+                      "HerklBez" : "Vietnam"
+                    }
+                  },
+                  "SapDelvry03E2edl43000" : {
+                    "Qualf" : "V",
+                    "Belnr" : "4517193472",
+                    "Posnr" : "000240",
+                    "Datum" : "20240306"
+                  }
+                }, {
+                  "Posnr" : "000220",
+                  "Matnr" : "000000002281460026",
+                  "Arktx" : "Cloudeclipse, FADE/SAND, 11",
+                  "Matkl" : "402035",
+                  "Werks" : "0004",
+                  "Lgort" : "1000",
+                  "Lfimg" : "3.000",
+                  "Vrkme" : "EA",
+                  "Lgmng" : "3.000",
+                  "Meins" : "EA",
+                  "Ntgew" : "4.446",
+                  "Brgew" : "4.446",
+                  "Gewei" : "LBR",
+                  "Volum" : "1533.390",
+                  "Ladgr" : "0001",
+                  "Tragr" : "0001",
+                  "Grkor" : "000",
+                  "Ean11" : "7630867883329",
+                  "Posex" : "000250",
+                  "Vfdat" : "00000000",
+                  "ExpiryDateExt" : "0",
+                  "Vgbel" : "4517193472",
+                  "Vgpos" : "000250",
+                  "Ormng" : "         3.000",
+                  "ExpiryDateExtB" : "0",
+                  "SapDelvry03E2edl25" : {
+                    "LgortBez" : "DC INVENTORY",
+                    "LadgrBez" : "Pallet Jack",
+                    "TragrBez" : "On pallets"
+                  },
+                  "SapDelvry03E2edl26002" : {
+                    "Pstyv" : "ELN",
+                    "Matkl" : "402035",
+                    "Umvkz" : "1",
+                    "Umvkn" : "1",
+                    "Uebtk" : "X",
+                    "Uebto" : "0.0",
+                    "Untto" : "0.0",
+                    "SapDelvry03E2edl27001" : {
+                      "PstyvBez" : "Inbound Delivery",
+                      "MatklBez" : "W'S NEUTRAL ROAD SHO",
+                      "WerksBez" : "LEBANON DISTRIBUTION CENTER"
+                    }
+                  },
+                  "SapDelvry03E2edl35" : {
+                    "Herkl" : "VN",
+                    "SapDelvry03E2edl36" : {
+                      "HerklBez" : "Vietnam"
+                    }
+                  },
+                  "SapDelvry03E2edl43000" : {
+                    "Qualf" : "V",
+                    "Belnr" : "4517193472",
+                    "Posnr" : "000250",
+                    "Datum" : "20240306"
+                  }
+                }, {
+                  "Posnr" : "000230",
+                  "Matnr" : "000000002281460017",
+                  "Arktx" : "Cloudeclipse, FADE/SAND, 6.5",
+                  "Matkl" : "402035",
+                  "Werks" : "0004",
+                  "Lgort" : "1000",
+                  "Lfimg" : "7.000",
+                  "Vrkme" : "EA",
+                  "Lgmng" : "7.000",
+                  "Meins" : "EA",
+                  "Ntgew" : "10.374",
+                  "Brgew" : "10.374",
+                  "Gewei" : "LBR",
+                  "Volum" : "3577.910",
+                  "Ladgr" : "0001",
+                  "Tragr" : "0001",
+                  "Grkor" : "000",
+                  "Ean11" : "7630867883237",
+                  "Posex" : "000170",
+                  "Vfdat" : "00000000",
+                  "ExpiryDateExt" : "0",
+                  "Vgbel" : "4517193472",
+                  "Vgpos" : "000170",
+                  "Ormng" : "         7.000",
+                  "ExpiryDateExtB" : "0",
+                  "SapDelvry03E2edl25" : {
+                    "LgortBez" : "DC INVENTORY",
+                    "LadgrBez" : "Pallet Jack",
+                    "TragrBez" : "On pallets"
+                  },
+                  "SapDelvry03E2edl26002" : {
+                    "Pstyv" : "ELN",
+                    "Matkl" : "402035",
+                    "Umvkz" : "1",
+                    "Umvkn" : "1",
+                    "Uebtk" : "X",
+                    "Uebto" : "0.0",
+                    "Untto" : "0.0",
+                    "SapDelvry03E2edl27001" : {
+                      "PstyvBez" : "Inbound Delivery",
+                      "MatklBez" : "W'S NEUTRAL ROAD SHO",
+                      "WerksBez" : "LEBANON DISTRIBUTION CENTER"
+                    }
+                  },
+                  "SapDelvry03E2edl35" : {
+                    "Herkl" : "VN",
+                    "SapDelvry03E2edl36" : {
+                      "HerklBez" : "Vietnam"
+                    }
+                  },
+                  "SapDelvry03E2edl43000" : {
+                    "Qualf" : "V",
+                    "Belnr" : "4517193472",
+                    "Posnr" : "000170",
+                    "Datum" : "20240306"
+                  }
+                }, {
+                  "Posnr" : "000240",
+                  "Matnr" : "000000002281460016",
+                  "Arktx" : "Cloudeclipse, FADE/SAND, 6",
+                  "Matkl" : "402035",
+                  "Werks" : "0004",
+                  "Lgort" : "1000",
+                  "Lfimg" : "4.000",
+                  "Vrkme" : "EA",
+                  "Lgmng" : "4.000",
+                  "Meins" : "EA",
+                  "Ntgew" : "5.928",
+                  "Brgew" : "5.928",
+                  "Gewei" : "LBR",
+                  "Volum" : "2044.520",
+                  "Ladgr" : "0001",
+                  "Tragr" : "0001",
+                  "Grkor" : "000",
+                  "Ean11" : "7630867883220",
+                  "Posex" : "000160",
+                  "Vfdat" : "00000000",
+                  "ExpiryDateExt" : "0",
+                  "Vgbel" : "4517193472",
+                  "Vgpos" : "000160",
+                  "Ormng" : "         4.000",
+                  "ExpiryDateExtB" : "0",
+                  "SapDelvry03E2edl25" : {
+                    "LgortBez" : "DC INVENTORY",
+                    "LadgrBez" : "Pallet Jack",
+                    "TragrBez" : "On pallets"
+                  },
+                  "SapDelvry03E2edl26002" : {
+                    "Pstyv" : "ELN",
+                    "Matkl" : "402035",
+                    "Umvkz" : "1",
+                    "Umvkn" : "1",
+                    "Uebtk" : "X",
+                    "Uebto" : "0.0",
+                    "Untto" : "0.0",
+                    "SapDelvry03E2edl27001" : {
+                      "PstyvBez" : "Inbound Delivery",
+                      "MatklBez" : "W'S NEUTRAL ROAD SHO",
+                      "WerksBez" : "LEBANON DISTRIBUTION CENTER"
+                    }
+                  },
+                  "SapDelvry03E2edl35" : {
+                    "Herkl" : "VN",
+                    "SapDelvry03E2edl36" : {
+                      "HerklBez" : "Vietnam"
+                    }
+                  },
+                  "SapDelvry03E2edl43000" : {
+                    "Qualf" : "V",
+                    "Belnr" : "4517193472",
+                    "Posnr" : "000160",
+                    "Datum" : "20240306"
+                  }
+                }, {
+                  "Posnr" : "000250",
+                  "Matnr" : "000000002281460023",
+                  "Arktx" : "Cloudeclipse, FADE/SAND, 9.5",
+                  "Matkl" : "402035",
+                  "Werks" : "0004",
+                  "Lgort" : "1000",
+                  "Lfimg" : "10.000",
+                  "Vrkme" : "EA",
+                  "Lgmng" : "10.000",
+                  "Meins" : "EA",
+                  "Ntgew" : "14.820",
+                  "Brgew" : "14.820",
+                  "Gewei" : "LBR",
+                  "Volum" : "5111.300",
+                  "Ladgr" : "0001",
+                  "Tragr" : "0001",
+                  "Grkor" : "000",
+                  "Ean11" : "7630867883299",
+                  "Posex" : "000230",
+                  "Vfdat" : "00000000",
+                  "ExpiryDateExt" : "0",
+                  "Vgbel" : "4517193472",
+                  "Vgpos" : "000230",
+                  "Ormng" : "        10.000",
+                  "ExpiryDateExtB" : "0",
+                  "SapDelvry03E2edl25" : {
+                    "LgortBez" : "DC INVENTORY",
+                    "LadgrBez" : "Pallet Jack",
+                    "TragrBez" : "On pallets"
+                  },
+                  "SapDelvry03E2edl26002" : {
+                    "Pstyv" : "ELN",
+                    "Matkl" : "402035",
+                    "Umvkz" : "1",
+                    "Umvkn" : "1",
+                    "Uebtk" : "X",
+                    "Uebto" : "0.0",
+                    "Untto" : "0.0",
+                    "SapDelvry03E2edl27001" : {
+                      "PstyvBez" : "Inbound Delivery",
+                      "MatklBez" : "W'S NEUTRAL ROAD SHO",
+                      "WerksBez" : "LEBANON DISTRIBUTION CENTER"
+                    }
+                  },
+                  "SapDelvry03E2edl35" : {
+                    "Herkl" : "VN",
+                    "SapDelvry03E2edl36" : {
+                      "HerklBez" : "Vietnam"
+                    }
+                  },
+                  "SapDelvry03E2edl43000" : {
+                    "Qualf" : "V",
+                    "Belnr" : "4517193472",
+                    "Posnr" : "000230",
+                    "Datum" : "20240306"
+                  }
+                } ],
+                "SapDelvry03E2edl37005" : [ {
+                  "Exidv" : "00176309798042752345",
+                  "Tarag" : "0.000",
+                  "Gweit" : "KGM",
+                  "Brgew" : "6.048",
+                  "Ntgew" : "6.048",
+                  "Magew" : "0.000",
+                  "Gweim" : "KGM",
+                  "Btvol" : "4600.170",
+                  "Ntvol" : "4600.170",
+                  "Mavol" : "0.000",
+                  "Tavol" : "0.000",
+                  "Vhilm" : "REI_CARTON",
+                  "Laeng" : "0.000",
+                  "Breit" : "0.000",
+                  "Hoehe" : "0.000",
+                  "Vhart" : "YB10",
+                  "Ladlg" : "0",
+                  "Farzt" : "0",
+                  "Entfe" : "0",
+                  "Veltp" : "C",
+                  "Exidv2" : "3WD30091197 W 6",
+                  "Vebez" : "Reference Article MC",
+                  "Smgkn" : "G",
+                  "Ernam" : "SAP_TIDAL",
+                  "Exida" : "H",
+                  "MoveStatus" : "0010",
+                  "ZulAufl" : "           0.000",
+                  "SapDelvry03E2edl38" : {
+                    "VhartBez" : "Reefer box",
+                    "Vebez" : "Reference Article MC"
+                  },
+                  "SapDelvry03E2edl44004" : [ {
+                    "Velin" : "1",
+                    "Vbeln" : "0182731894",
+                    "Posnr" : "000010",
+                    "Vemng" : "1.000",
+                    "Vemeh" : "EA",
+                    "Matnr" : "000000002281460003",
+                    "Werks" : "0004",
+                    "Lgort" : "1000",
+                    "Cuobj" : "000000000000000000",
+                    "Anzsn" : "         0",
+                    "Wdatu" : "00000000"
+                  }, {
+                    "Velin" : "1",
+                    "Vbeln" : "0182731894",
+                    "Posnr" : "000020",
+                    "Vemng" : "1.000",
+                    "Vemeh" : "EA",
+                    "Matnr" : "000000002281460005",
+                    "Werks" : "0004",
+                    "Lgort" : "1000",
+                    "Cuobj" : "000000000000000000",
+                    "Anzsn" : "         0",
+                    "Wdatu" : "00000000"
+                  }, {
+                    "Velin" : "1",
+                    "Vbeln" : "0182731894",
+                    "Posnr" : "000030",
+                    "Vemng" : "1.000",
+                    "Vemeh" : "EA",
+                    "Matnr" : "000000002281460006",
+                    "Werks" : "0004",
+                    "Lgort" : "1000",
+                    "Cuobj" : "000000000000000000",
+                    "Anzsn" : "         0",
+                    "Wdatu" : "00000000"
+                  }, {
+                    "Velin" : "1",
+                    "Vbeln" : "0182731894",
+                    "Posnr" : "000040",
+                    "Vemng" : "2.000",
+                    "Vemeh" : "EA",
+                    "Matnr" : "000000002281460007",
+                    "Werks" : "0004",
+                    "Lgort" : "1000",
+                    "Cuobj" : "000000000000000000",
+                    "Anzsn" : "         0",
+                    "Wdatu" : "00000000"
+                  }, {
+                    "Velin" : "1",
+                    "Vbeln" : "0182731894",
+                    "Posnr" : "000050",
+                    "Vemng" : "1.000",
+                    "Vemeh" : "EA",
+                    "Matnr" : "000000002281460008",
+                    "Werks" : "0004",
+                    "Lgort" : "1000",
+                    "Cuobj" : "000000000000000000",
+                    "Anzsn" : "         0",
+                    "Wdatu" : "00000000"
+                  }, {
+                    "Velin" : "1",
+                    "Vbeln" : "0182731894",
+                    "Posnr" : "000060",
+                    "Vemng" : "1.000",
+                    "Vemeh" : "EA",
+                    "Matnr" : "000000002281460009",
+                    "Werks" : "0004",
+                    "Lgort" : "1000",
+                    "Cuobj" : "000000000000000000",
+                    "Anzsn" : "         0",
+                    "Wdatu" : "00000000"
+                  }, {
+                    "Velin" : "1",
+                    "Vbeln" : "0182731894",
+                    "Posnr" : "000070",
+                    "Vemng" : "1.000",
+                    "Vemeh" : "EA",
+                    "Matnr" : "000000002281460010",
+                    "Werks" : "0004",
+                    "Lgort" : "1000",
+                    "Cuobj" : "000000000000000000",
+                    "Anzsn" : "         0",
+                    "Wdatu" : "00000000"
+                  }, {
+                    "Velin" : "1",
+                    "Vbeln" : "0182731894",
+                    "Posnr" : "000080",
+                    "Vemng" : "1.000",
+                    "Vemeh" : "EA",
+                    "Matnr" : "000000002281460012",
+                    "Werks" : "0004",
+                    "Lgort" : "1000",
+                    "Cuobj" : "000000000000000000",
+                    "Anzsn" : "         0",
+                    "Wdatu" : "00000000"
+                  } ]
+                }, {
+                  "Exidv" : "00176309798042752352",
+                  "Tarag" : "0.000",
+                  "Gweit" : "KGM",
+                  "Brgew" : "6.048",
+                  "Ntgew" : "6.048",
+                  "Magew" : "0.000",
+                  "Gweim" : "KGM",
+                  "Btvol" : "4600.170",
+                  "Ntvol" : "4600.170",
+                  "Mavol" : "0.000",
+                  "Tavol" : "0.000",
+                  "Vhilm" : "REI_CARTON",
+                  "Laeng" : "0.000",
+                  "Breit" : "0.000",
+                  "Hoehe" : "0.000",
+                  "Vhart" : "YB10",
+                  "Ladlg" : "0",
+                  "Farzt" : "0",
+                  "Entfe" : "0",
+                  "Veltp" : "C",
+                  "Exidv2" : "3WD30091197 W 10",
+                  "Vebez" : "Reference Article MC",
+                  "Smgkn" : "G",
+                  "Ernam" : "SAP_TIDAL",
+                  "Exida" : "H",
+                  "MoveStatus" : "0010",
+                  "ZulAufl" : "           0.000",
+                  "SapDelvry03E2edl38" : {
+                    "VhartBez" : "Reefer box",
+                    "Vebez" : "Reference Article MC"
+                  },
+                  "SapDelvry03E2edl44004" : [ {
+                    "Velin" : "1",
+                    "Vbeln" : "0182731894",
+                    "Posnr" : "000130",
+                    "Vemng" : "1.000",
+                    "Vemeh" : "EA",
+                    "Matnr" : "000000002281460011",
+                    "Werks" : "0004",
+                    "Lgort" : "1000",
+                    "Cuobj" : "000000000000000000",
+                    "Anzsn" : "         0",
+                    "Wdatu" : "00000000"
+                  }, {
+                    "Velin" : "1",
+                    "Vbeln" : "0182731894",
+                    "Posnr" : "000140",
+                    "Vemng" : "1.000",
+                    "Vemeh" : "EA",
+                    "Matnr" : "000000002281460044",
+                    "Werks" : "0004",
+                    "Lgort" : "1000",
+                    "Cuobj" : "000000000000000000",
+                    "Anzsn" : "         0",
+                    "Wdatu" : "00000000"
+                  }, {
+                    "Velin" : "1",
+                    "Vbeln" : "0182731894",
+                    "Posnr" : "000150",
+                    "Vemng" : "1.000",
+                    "Vemeh" : "EA",
+                    "Matnr" : "000000002281460045",
+                    "Werks" : "0004",
+                    "Lgort" : "1000",
+                    "Cuobj" : "000000000000000000",
+                    "Anzsn" : "         0",
+                    "Wdatu" : "00000000"
+                  }, {
+                    "Velin" : "1",
+                    "Vbeln" : "0182731894",
+                    "Posnr" : "000160",
+                    "Vemng" : "1.000",
+                    "Vemeh" : "EA",
+                    "Matnr" : "000000002281460046",
+                    "Werks" : "0004",
+                    "Lgort" : "1000",
+                    "Cuobj" : "000000000000000000",
+                    "Anzsn" : "         0",
+                    "Wdatu" : "00000000"
+                  }, {
+                    "Velin" : "1",
+                    "Vbeln" : "0182731894",
+                    "Posnr" : "000170",
+                    "Vemng" : "1.000",
+                    "Vemeh" : "EA",
+                    "Matnr" : "000000002281460047",
+                    "Werks" : "0004",
+                    "Lgort" : "1000",
+                    "Cuobj" : "000000000000000000",
+                    "Anzsn" : "         0",
+                    "Wdatu" : "00000000"
+                  }, {
+                    "Velin" : "1",
+                    "Vbeln" : "0182731894",
+                    "Posnr" : "000180",
+                    "Vemng" : "1.000",
+                    "Vemeh" : "EA",
+                    "Matnr" : "000000002281460048",
+                    "Werks" : "0004",
+                    "Lgort" : "1000",
+                    "Cuobj" : "000000000000000000",
+                    "Anzsn" : "         0",
+                    "Wdatu" : "00000000"
+                  }, {
+                    "Velin" : "1",
+                    "Vbeln" : "0182731894",
+                    "Posnr" : "000190",
+                    "Vemng" : "1.000",
+                    "Vemeh" : "EA",
+                    "Matnr" : "000000002281460049",
+                    "Werks" : "0004",
+                    "Lgort" : "1000",
+                    "Cuobj" : "000000000000000000",
+                    "Anzsn" : "         0",
+                    "Wdatu" : "00000000"
+                  }, {
+                    "Velin" : "1",
+                    "Vbeln" : "0182731894",
+                    "Posnr" : "000200",
+                    "Vemng" : "2.000",
+                    "Vemeh" : "EA",
+                    "Matnr" : "000000002281460022",
+                    "Werks" : "0004",
+                    "Lgort" : "1000",
+                    "Cuobj" : "000000000000000000",
+                    "Anzsn" : "         0",
+                    "Wdatu" : "00000000"
+                  } ]
+                }, {
+                  "Exidv" : "00176309798042752369",
+                  "Tarag" : "0.000",
+                  "Gweit" : "KGM",
+                  "Brgew" : "5.378",
+                  "Ntgew" : "5.378",
+                  "Magew" : "0.000",
+                  "Gweim" : "KGM",
+                  "Btvol" : "4089.040",
+                  "Ntvol" : "4089.040",
+                  "Mavol" : "0.000",
+                  "Tavol" : "0.000",
+                  "Vhilm" : "REI_CARTON",
+                  "Laeng" : "0.000",
+                  "Breit" : "0.000",
+                  "Hoehe" : "0.000",
+                  "Vhart" : "YB10",
+                  "Ladlg" : "0",
+                  "Farzt" : "0",
+                  "Entfe" : "0",
+                  "Veltp" : "C",
+                  "Exidv2" : "3WD30092317 W 9",
+                  "Vebez" : "Reference Article MC",
+                  "Smgkn" : "G",
+                  "Ernam" : "SAP_TIDAL",
+                  "Exida" : "H",
+                  "MoveStatus" : "0010",
+                  "ZulAufl" : "           0.000",
+                  "SapDelvry03E2edl38" : {
+                    "VhartBez" : "Reefer box",
+                    "Vebez" : "Reference Article MC"
+                  },
+                  "SapDelvry03E2edl44004" : [ {
+                    "Velin" : "1",
+                    "Vbeln" : "0182731894",
+                    "Posnr" : "000200",
+                    "Vemng" : "3.000",
+                    "Vemeh" : "EA",
+                    "Matnr" : "000000002281460022",
+                    "Werks" : "0004",
+                    "Lgort" : "1000",
+                    "Cuobj" : "000000000000000000",
+                    "Anzsn" : "         0",
+                    "Wdatu" : "00000000"
+                  }, {
+                    "Velin" : "1",
+                    "Vbeln" : "0182731894",
+                    "Posnr" : "000210",
+                    "Vemng" : "5.000",
+                    "Vemeh" : "EA",
+                    "Matnr" : "000000002281460024",
+                    "Werks" : "0004",
+                    "Lgort" : "1000",
+                    "Cuobj" : "000000000000000000",
+                    "Anzsn" : "         0",
+                    "Wdatu" : "00000000"
+                  } ]
+                }, {
+                  "Exidv" : "00176309798042752376",
+                  "Tarag" : "0.000",
+                  "Gweit" : "KGM",
+                  "Brgew" : "6.050",
+                  "Ntgew" : "6.050",
+                  "Magew" : "0.000",
+                  "Gweim" : "KGM",
+                  "Btvol" : "4600.170",
+                  "Ntvol" : "4600.170",
+                  "Mavol" : "0.000",
+                  "Tavol" : "0.000",
+                  "Vhilm" : "REI_CARTON",
+                  "Laeng" : "0.000",
+                  "Breit" : "0.000",
+                  "Hoehe" : "0.000",
+                  "Vhart" : "YB10",
+                  "Ladlg" : "0",
+                  "Farzt" : "0",
+                  "Entfe" : "0",
+                  "Veltp" : "C",
+                  "Exidv2" : "3WD30092317 W 8",
+                  "Vebez" : "Reference Article MC",
+                  "Smgkn" : "G",
+                  "Ernam" : "SAP_TIDAL",
+                  "Exida" : "H",
+                  "MoveStatus" : "0010",
+                  "ZulAufl" : "           0.000",
+                  "SapDelvry03E2edl38" : {
+                    "VhartBez" : "Reefer box",
+                    "Vebez" : "Reference Article MC"
+                  },
+                  "SapDelvry03E2edl44004" : [ {
+                    "Velin" : "1",
+                    "Vbeln" : "0182731894",
+                    "Posnr" : "000120",
+                    "Vemng" : "2.000",
+                    "Vemeh" : "EA",
+                    "Matnr" : "000000002281460020",
+                    "Werks" : "0004",
+                    "Lgort" : "1000",
+                    "Cuobj" : "000000000000000000",
+                    "Anzsn" : "         0",
+                    "Wdatu" : "00000000"
+                  }, {
+                    "Velin" : "1",
+                    "Vbeln" : "0182731894",
+                    "Posnr" : "000210",
+                    "Vemng" : "4.000",
+                    "Vemeh" : "EA",
+                    "Matnr" : "000000002281460024",
+                    "Werks" : "0004",
+                    "Lgort" : "1000",
+                    "Cuobj" : "000000000000000000",
+                    "Anzsn" : "         0",
+                    "Wdatu" : "00000000"
+                  }, {
+                    "Velin" : "1",
+                    "Vbeln" : "0182731894",
+                    "Posnr" : "000220",
+                    "Vemng" : "3.000",
+                    "Vemeh" : "EA",
+                    "Matnr" : "000000002281460026",
+                    "Werks" : "0004",
+                    "Lgort" : "1000",
+                    "Cuobj" : "000000000000000000",
+                    "Anzsn" : "         0",
+                    "Wdatu" : "00000000"
+                  } ]
+                }, {
+                  "Exidv" : "00176309798042752383",
+                  "Tarag" : "0.000",
+                  "Gweit" : "KGM",
+                  "Brgew" : "8.066",
+                  "Ntgew" : "8.066",
+                  "Magew" : "0.000",
+                  "Gweim" : "KGM",
+                  "Btvol" : "6133.560",
+                  "Ntvol" : "6133.560",
+                  "Mavol" : "0.000",
+                  "Tavol" : "0.000",
+                  "Vhilm" : "REI_CARTON",
+                  "Laeng" : "0.000",
+                  "Breit" : "0.000",
+                  "Hoehe" : "0.000",
+                  "Vhart" : "YB10",
+                  "Ladlg" : "0",
+                  "Farzt" : "0",
+                  "Entfe" : "0",
+                  "Veltp" : "C",
+                  "Exidv2" : "3WD30092317 W 6.5",
+                  "Vebez" : "Reference Article MC",
+                  "Smgkn" : "G",
+                  "Ernam" : "SAP_TIDAL",
+                  "Exida" : "H",
+                  "MoveStatus" : "0010",
+                  "ZulAufl" : "           0.000",
+                  "SapDelvry03E2edl38" : {
+                    "VhartBez" : "Reefer box",
+                    "Vebez" : "Reference Article MC"
+                  },
+                  "SapDelvry03E2edl44004" : [ {
+                    "Velin" : "1",
+                    "Vbeln" : "0182731894",
+                    "Posnr" : "000120",
+                    "Vemng" : "6.000",
+                    "Vemeh" : "EA",
+                    "Matnr" : "000000002281460020",
+                    "Werks" : "0004",
+                    "Lgort" : "1000",
+                    "Cuobj" : "000000000000000000",
+                    "Anzsn" : "         0",
+                    "Wdatu" : "00000000"
+                  }, {
+                    "Velin" : "1",
+                    "Vbeln" : "0182731894",
+                    "Posnr" : "000230",
+                    "Vemng" : "6.000",
+                    "Vemeh" : "EA",
+                    "Matnr" : "000000002281460017",
+                    "Werks" : "0004",
+                    "Lgort" : "1000",
+                    "Cuobj" : "000000000000000000",
+                    "Anzsn" : "         0",
+                    "Wdatu" : "00000000"
+                  } ]
+                }, {
+                  "Exidv" : "00176309798042752390",
+                  "Tarag" : "0.000",
+                  "Gweit" : "KGM",
+                  "Brgew" : "8.066",
+                  "Ntgew" : "8.066",
+                  "Magew" : "0.000",
+                  "Gweim" : "KGM",
+                  "Btvol" : "6133.560",
+                  "Ntvol" : "6133.560",
+                  "Mavol" : "0.000",
+                  "Tavol" : "0.000",
+                  "Vhilm" : "REI_CARTON",
+                  "Laeng" : "0.000",
+                  "Breit" : "0.000",
+                  "Hoehe" : "0.000",
+                  "Vhart" : "YB10",
+                  "Ladlg" : "0",
+                  "Farzt" : "0",
+                  "Entfe" : "0",
+                  "Veltp" : "C",
+                  "Exidv2" : "3WD30092317 W 6",
+                  "Vebez" : "Reference Article MC",
+                  "Smgkn" : "G",
+                  "Ernam" : "SAP_TIDAL",
+                  "Exida" : "H",
+                  "MoveStatus" : "0010",
+                  "ZulAufl" : "           0.000",
+                  "SapDelvry03E2edl38" : {
+                    "VhartBez" : "Reefer box",
+                    "Vebez" : "Reference Article MC"
+                  },
+                  "SapDelvry03E2edl44004" : [ {
+                    "Velin" : "1",
+                    "Vbeln" : "0182731894",
+                    "Posnr" : "000090",
+                    "Vemng" : "2.000",
+                    "Vemeh" : "EA",
+                    "Matnr" : "000000002281460021",
+                    "Werks" : "0004",
+                    "Lgort" : "1000",
+                    "Cuobj" : "000000000000000000",
+                    "Anzsn" : "         0",
+                    "Wdatu" : "00000000"
+                  }, {
+                    "Velin" : "1",
+                    "Vbeln" : "0182731894",
+                    "Posnr" : "000100",
+                    "Vemng" : "1.000",
+                    "Vemeh" : "EA",
+                    "Matnr" : "000000002281460018",
+                    "Werks" : "0004",
+                    "Lgort" : "1000",
+                    "Cuobj" : "000000000000000000",
+                    "Anzsn" : "         0",
+                    "Wdatu" : "00000000"
+                  }, {
+                    "Velin" : "1",
+                    "Vbeln" : "0182731894",
+                    "Posnr" : "000110",
+                    "Vemng" : "4.000",
+                    "Vemeh" : "EA",
+                    "Matnr" : "000000002281460019",
+                    "Werks" : "0004",
+                    "Lgort" : "1000",
+                    "Cuobj" : "000000000000000000",
+                    "Anzsn" : "         0",
+                    "Wdatu" : "00000000"
+                  }, {
+                    "Velin" : "1",
+                    "Vbeln" : "0182731894",
+                    "Posnr" : "000230",
+                    "Vemng" : "1.000",
+                    "Vemeh" : "EA",
+                    "Matnr" : "000000002281460017",
+                    "Werks" : "0004",
+                    "Lgort" : "1000",
+                    "Cuobj" : "000000000000000000",
+                    "Anzsn" : "         0",
+                    "Wdatu" : "00000000"
+                  }, {
+                    "Velin" : "1",
+                    "Vbeln" : "0182731894",
+                    "Posnr" : "000240",
+                    "Vemng" : "4.000",
+                    "Vemeh" : "EA",
+                    "Matnr" : "000000002281460016",
+                    "Werks" : "0004",
+                    "Lgort" : "1000",
+                    "Cuobj" : "000000000000000000",
+                    "Anzsn" : "         0",
+                    "Wdatu" : "00000000"
+                  } ]
+                }, {
+                  "Exidv" : "00176309798042752406",
+                  "Tarag" : "0.000",
+                  "Gweit" : "KGM",
+                  "Brgew" : "2.689",
+                  "Ntgew" : "2.689",
+                  "Magew" : "0.000",
+                  "Gweim" : "KGM",
+                  "Btvol" : "2044.520",
+                  "Ntvol" : "2044.520",
+                  "Mavol" : "0.000",
+                  "Tavol" : "0.000",
+                  "Vhilm" : "REI_CARTON",
+                  "Laeng" : "0.000",
+                  "Breit" : "0.000",
+                  "Hoehe" : "0.000",
+                  "Vhart" : "YB10",
+                  "Ladlg" : "0",
+                  "Farzt" : "0",
+                  "Entfe" : "0",
+                  "Veltp" : "C",
+                  "Exidv2" : "3WD30092317 W 8.5",
+                  "Vebez" : "Reference Article MC",
+                  "Smgkn" : "S",
+                  "Ernam" : "SAP_TIDAL",
+                  "Exida" : "H",
+                  "MoveStatus" : "0010",
+                  "ZulAufl" : "           0.000",
+                  "SapDelvry03E2edl38" : {
+                    "VhartBez" : "Reefer box",
+                    "Vebez" : "Reference Article MC"
+                  },
+                  "SapDelvry03E2edl44004" : {
+                    "Velin" : "1",
+                    "Vbeln" : "0182731894",
+                    "Posnr" : "000090",
+                    "Vemng" : "4.000",
+                    "Vemeh" : "EA",
+                    "Matnr" : "000000002281460021",
+                    "Werks" : "0004",
+                    "Lgort" : "1000",
+                    "Cuobj" : "000000000000000000",
+                    "Anzsn" : "         0",
+                    "Wdatu" : "00000000"
+                  }
+                }, {
+                  "Exidv" : "00176309798042752413",
+                  "Tarag" : "0.000",
+                  "Gweit" : "KGM",
+                  "Brgew" : "6.722",
+                  "Ntgew" : "6.722",
+                  "Magew" : "0.000",
+                  "Gweim" : "KGM",
+                  "Btvol" : "5111.300",
+                  "Ntvol" : "5111.300",
+                  "Mavol" : "0.000",
+                  "Tavol" : "0.000",
+                  "Vhilm" : "REI_CARTON",
+                  "Laeng" : "0.000",
+                  "Breit" : "0.000",
+                  "Hoehe" : "0.000",
+                  "Vhart" : "YB10",
+                  "Ladlg" : "0",
+                  "Farzt" : "0",
+                  "Entfe" : "0",
+                  "Veltp" : "C",
+                  "Exidv2" : "3WD30092317 W 9",
+                  "Vebez" : "Reference Article MC",
+                  "Smgkn" : "S",
+                  "Ernam" : "SAP_TIDAL",
+                  "Exida" : "H",
+                  "MoveStatus" : "0010",
+                  "ZulAufl" : "           0.000",
+                  "SapDelvry03E2edl38" : {
+                    "VhartBez" : "Reefer box",
+                    "Vebez" : "Reference Article MC"
+                  },
+                  "SapDelvry03E2edl44004" : {
+                    "Velin" : "1",
+                    "Vbeln" : "0182731894",
+                    "Posnr" : "000200",
+                    "Vemng" : "10.000",
+                    "Vemeh" : "EA",
+                    "Matnr" : "000000002281460022",
+                    "Werks" : "0004",
+                    "Lgort" : "1000",
+                    "Cuobj" : "000000000000000000",
+                    "Anzsn" : "         0",
+                    "Wdatu" : "00000000"
+                  }
+                }, {
+                  "Exidv" : "00176309798042752420",
+                  "Tarag" : "0.000",
+                  "Gweit" : "KGM",
+                  "Brgew" : "6.722",
+                  "Ntgew" : "6.722",
+                  "Magew" : "0.000",
+                  "Gweim" : "KGM",
+                  "Btvol" : "5111.300",
+                  "Ntvol" : "5111.300",
+                  "Mavol" : "0.000",
+                  "Tavol" : "0.000",
+                  "Vhilm" : "REI_CARTON",
+                  "Laeng" : "0.000",
+                  "Breit" : "0.000",
+                  "Hoehe" : "0.000",
+                  "Vhart" : "YB10",
+                  "Ladlg" : "0",
+                  "Farzt" : "0",
+                  "Entfe" : "0",
+                  "Veltp" : "C",
+                  "Exidv2" : "3WD30092317 W 9.5",
+                  "Vebez" : "Reference Article MC",
+                  "Smgkn" : "S",
+                  "Ernam" : "SAP_TIDAL",
+                  "Exida" : "H",
+                  "MoveStatus" : "0010",
+                  "ZulAufl" : "           0.000",
+                  "SapDelvry03E2edl38" : {
+                    "VhartBez" : "Reefer box",
+                    "Vebez" : "Reference Article MC"
+                  },
+                  "SapDelvry03E2edl44004" : {
+                    "Velin" : "1",
+                    "Vbeln" : "0182731894",
+                    "Posnr" : "000250",
+                    "Vemng" : "10.000",
+                    "Vemeh" : "EA",
+                    "Matnr" : "000000002281460023",
+                    "Werks" : "0004",
+                    "Lgort" : "1000",
+                    "Cuobj" : "000000000000000000",
+                    "Anzsn" : "         0",
+                    "Wdatu" : "00000000"
+                  }
+                }, {
+                  "Exidv" : "00176309798042752437",
+                  "Tarag" : "0.000",
+                  "Gweit" : "KGM",
+                  "Brgew" : "6.722",
+                  "Ntgew" : "6.722",
+                  "Magew" : "0.000",
+                  "Gweim" : "KGM",
+                  "Btvol" : "5111.300",
+                  "Ntvol" : "5111.300",
+                  "Mavol" : "0.000",
+                  "Tavol" : "0.000",
+                  "Vhilm" : "REI_CARTON",
+                  "Laeng" : "0.000",
+                  "Breit" : "0.000",
+                  "Hoehe" : "0.000",
+                  "Vhart" : "YB10",
+                  "Ladlg" : "0",
+                  "Farzt" : "0",
+                  "Entfe" : "0",
+                  "Veltp" : "C",
+                  "Exidv2" : "3WD30092317 W 8.5",
+                  "Vebez" : "Reference Article MC",
+                  "Smgkn" : "S",
+                  "Ernam" : "SAP_TIDAL",
+                  "Exida" : "H",
+                  "MoveStatus" : "0010",
+                  "ZulAufl" : "           0.000",
+                  "SapDelvry03E2edl38" : {
+                    "VhartBez" : "Reefer box",
+                    "Vebez" : "Reference Article MC"
+                  },
+                  "SapDelvry03E2edl44004" : {
+                    "Velin" : "1",
+                    "Vbeln" : "0182731894",
+                    "Posnr" : "000090",
+                    "Vemng" : "10.000",
+                    "Vemeh" : "EA",
+                    "Matnr" : "000000002281460021",
+                    "Werks" : "0004",
+                    "Lgort" : "1000",
+                    "Cuobj" : "000000000000000000",
+                    "Anzsn" : "         0",
+                    "Wdatu" : "00000000"
+                  }
+                }, {
+                  "Exidv" : "00176309798042752444",
+                  "Tarag" : "0.000",
+                  "Gweit" : "KGM",
+                  "Brgew" : "6.722",
+                  "Ntgew" : "6.722",
+                  "Magew" : "0.000",
+                  "Gweim" : "KGM",
+                  "Btvol" : "5111.300",
+                  "Ntvol" : "5111.300",
+                  "Mavol" : "0.000",
+                  "Tavol" : "0.000",
+                  "Vhilm" : "REI_CARTON",
+                  "Laeng" : "0.000",
+                  "Breit" : "0.000",
+                  "Hoehe" : "0.000",
+                  "Vhart" : "YB10",
+                  "Ladlg" : "0",
+                  "Farzt" : "0",
+                  "Entfe" : "0",
+                  "Veltp" : "C",
+                  "Exidv2" : "3WD30092317 W 7",
+                  "Vebez" : "Reference Article MC",
+                  "Smgkn" : "S",
+                  "Ernam" : "SAP_TIDAL",
+                  "Exida" : "H",
+                  "MoveStatus" : "0010",
+                  "ZulAufl" : "           0.000",
+                  "SapDelvry03E2edl38" : {
+                    "VhartBez" : "Reefer box",
+                    "Vebez" : "Reference Article MC"
+                  },
+                  "SapDelvry03E2edl44004" : {
+                    "Velin" : "1",
+                    "Vbeln" : "0182731894",
+                    "Posnr" : "000100",
+                    "Vemng" : "10.000",
+                    "Vemeh" : "EA",
+                    "Matnr" : "000000002281460018",
+                    "Werks" : "0004",
+                    "Lgort" : "1000",
+                    "Cuobj" : "000000000000000000",
+                    "Anzsn" : "         0",
+                    "Wdatu" : "00000000"
+                  }
+                }, {
+                  "Exidv" : "00176309798042752451",
+                  "Tarag" : "0.000",
+                  "Gweit" : "KGM",
+                  "Brgew" : "6.722",
+                  "Ntgew" : "6.722",
+                  "Magew" : "0.000",
+                  "Gweim" : "KGM",
+                  "Btvol" : "5111.300",
+                  "Ntvol" : "5111.300",
+                  "Mavol" : "0.000",
+                  "Tavol" : "0.000",
+                  "Vhilm" : "REI_CARTON",
+                  "Laeng" : "0.000",
+                  "Breit" : "0.000",
+                  "Hoehe" : "0.000",
+                  "Vhart" : "YB10",
+                  "Ladlg" : "0",
+                  "Farzt" : "0",
+                  "Entfe" : "0",
+                  "Veltp" : "C",
+                  "Exidv2" : "3WD30092317 W 7.5",
+                  "Vebez" : "Reference Article MC",
+                  "Smgkn" : "S",
+                  "Ernam" : "SAP_TIDAL",
+                  "Exida" : "H",
+                  "MoveStatus" : "0010",
+                  "ZulAufl" : "           0.000",
+                  "SapDelvry03E2edl38" : {
+                    "VhartBez" : "Reefer box",
+                    "Vebez" : "Reference Article MC"
+                  },
+                  "SapDelvry03E2edl44004" : {
+                    "Velin" : "1",
+                    "Vbeln" : "0182731894",
+                    "Posnr" : "000110",
+                    "Vemng" : "10.000",
+                    "Vemeh" : "EA",
+                    "Matnr" : "000000002281460019",
+                    "Werks" : "0004",
+                    "Lgort" : "1000",
+                    "Cuobj" : "000000000000000000",
+                    "Anzsn" : "         0",
+                    "Wdatu" : "00000000"
+                  }
+                }, {
+                  "Exidv" : "00176309798042752468",
+                  "Tarag" : "0.000",
+                  "Gweit" : "KGM",
+                  "Brgew" : "6.722",
+                  "Ntgew" : "6.722",
+                  "Magew" : "0.000",
+                  "Gweim" : "KGM",
+                  "Btvol" : "5111.300",
+                  "Ntvol" : "5111.300",
+                  "Mavol" : "0.000",
+                  "Tavol" : "0.000",
+                  "Vhilm" : "REI_CARTON",
+                  "Laeng" : "0.000",
+                  "Breit" : "0.000",
+                  "Hoehe" : "0.000",
+                  "Vhart" : "YB10",
+                  "Ladlg" : "0",
+                  "Farzt" : "0",
+                  "Entfe" : "0",
+                  "Veltp" : "C",
+                  "Exidv2" : "3WD30092317 W 8",
+                  "Vebez" : "Reference Article MC",
+                  "Smgkn" : "S",
+                  "Ernam" : "SAP_TIDAL",
+                  "Exida" : "H",
+                  "MoveStatus" : "0010",
+                  "ZulAufl" : "           0.000",
+                  "SapDelvry03E2edl38" : {
+                    "VhartBez" : "Reefer box",
+                    "Vebez" : "Reference Article MC"
+                  },
+                  "SapDelvry03E2edl44004" : {
+                    "Velin" : "1",
+                    "Vbeln" : "0182731894",
+                    "Posnr" : "000120",
+                    "Vemng" : "10.000",
+                    "Vemeh" : "EA",
+                    "Matnr" : "000000002281460020",
+                    "Werks" : "0004",
+                    "Lgort" : "1000",
+                    "Cuobj" : "000000000000000000",
+                    "Anzsn" : "         0",
+                    "Wdatu" : "00000000"
+                  }
+                } ]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
